@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>COLOR SWITCHER</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="transition-all duration-500">
+
+  <div class="flex flex-col items-center justify-center h-[90vh] bg-opacity-20">
+    <h1 class="text-4xl font-bold mb-8 text-gray-800">COLOR SWITCHER</h1>
+
+    <div class="flex space-x-6 mb-6">
+      <span class="button w-12 h-12 rounded-full cursor-pointer border-2 border-gray-500 bg-yellow-400" id="yellow"></span>
+      <span class="button w-12 h-12 rounded-full cursor-pointer border-2 border-gray-500 bg-red-500" id="red"></span>
+      <span class="button w-12 h-12 rounded-full cursor-pointer border-2 border-gray-500 bg-white" id="white"></span>
+      <span class="button w-12 h-12 rounded-full cursor-pointer border-2 border-gray-500 bg-blue-500" id="blue"></span>
+    </div>
+
+    <h2 class="text-xl text-gray-700">Click on a color to change the 
+      <div class="text-green-600 font-semibold inline"> - </div>
+      <span class="font-semibold">Background</span>
+    </h2>
+  </div>
+
+  <script src="script.js">
+  </script>
+
+</body>
+</html>
